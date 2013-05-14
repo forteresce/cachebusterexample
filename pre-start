@@ -1,0 +1,12 @@
+#!/usr/bin/env sh
+
+# generate the js files
+rm -rfv public/ojs
+rm -v public/js/tools/build.js
+node public/js/tools/gen-build.js 
+node public/js/tools/r.js -o public/js/tools/build.js
+
+# generate the css files
+LESS_PATH='./node_modules/less-middleware/node_modules/less/bin'
+rm -rfv public/css/*.css
+$LESS_PATH/lessc --yui-compress --verbose public/css/style.less > public/css/style.css

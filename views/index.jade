@@ -1,0 +1,13 @@
+extends layout
+
+block content
+  h1= title
+  form
+    label Enter numbers to sum:
+    input#numbers(placeholder='comma separated')
+    button#btn Sum
+  div#result
+
+block append scripts
+  script
+    require(['main']);

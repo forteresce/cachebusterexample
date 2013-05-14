@@ -1,0 +1,14 @@
+{
+    "appDir": "../",
+    "mainConfigFile": "../app/config.js",
+    "paths": {
+            "jquery": "empty:"
+    },
+    "baseUrl": ".",
+    "dir": "../../ojs",
+    "modules": [
+        {
+            "name": "app/main"
+        }
+    ]
+}

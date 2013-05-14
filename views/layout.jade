@@ -1,0 +1,9 @@
+doctype 5
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/css/style.css?v=#{cssVersion}')
+  body
+    block content
+    block scripts
+      script(data-main='#{jsPath}/app/config', src='#{jsPath}/lib/require-jquery.js')
