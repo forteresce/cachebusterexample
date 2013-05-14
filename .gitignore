@@ -1,0 +1,6 @@
+npm-debug.log
+node_modules
+*.css
+public/ojs*
+*.sublime*
+public/js/tools/build.js
