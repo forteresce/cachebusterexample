@@ -8,4 +8,4 @@ See [post] for details.
  [express-js]: http://expressjs.com
  [less]: http://lesscss.org/
  [require-js]: http://requirejs.org/
- [post]: http://www.dodla.com/
+ [post]: http://www.dodla.com/2013/05/cache-busting-urls-with-nodejs-express.html
